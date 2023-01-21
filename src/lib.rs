@@ -1,15 +1,3 @@
-use wasm_bindgen::prelude::wasm_bindgen;
-
-#[wasm_bindgen]
-pub fn process_str(input: String) -> String {
-    input.to_ascii_uppercase()
-}
-
-#[wasm_bindgen]
-pub fn help_text() -> String {
-    "Here's some help text to get started. This example program will just shout back anything you give it".to_string()
-}
-
 // TODO: remove this when you're done with your implementation.
 #![allow(unused_variables, dead_code)]
 
@@ -54,5 +42,14 @@ fn test_invalid_cc_number() {
     assert!(!luhn("8273 1232 7352 0569"));
 }
 
-#[allow(dead_code)]
-fn main() {}
+use wasm_bindgen::prelude::wasm_bindgen;
+
+#[wasm_bindgen]
+pub fn process_str(input: String) -> String {
+    input.to_ascii_uppercase()
+}
+
+#[wasm_bindgen]
+pub fn help_text() -> String {
+    "Here's some help text to get started. This example program will just shout back anything you give it".to_string()
+}
