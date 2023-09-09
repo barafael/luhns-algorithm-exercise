@@ -1,4 +1,4 @@
-import init, { process_str, help_text } from "./pkg/replify_example.js";
+import init, { process_str, help_text } from "./pkg/luhn_algo_exercise.js";
 
 let messages, btn, input;
 

@@ -1,12 +1,11 @@
 [package]
-name = "replify-example"
-authors = ["Rafael Bachmann <rafael.bachmann.93@gmail.com>"]
+name = "luhn_algo_exercise"
+authors = ["Your Name <your.name@email.com>"]
 version = "0.1.0"
 license = "Apache-2.0"
-description = "Got a Rust program that gets some input, transforms it, then gives something back? Turn it into a REPL-like website via WASM."
-repository = "https://github.com/barafael/replify-wasm"
 edition = "2021"
 
+# For WASM binary generation
 [lib]
 crate-type = ["cdylib", "rlib"]
 

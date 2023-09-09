@@ -1,21 +1,18 @@
 {
-  "name": "replify-example",
+  "name": "luhn_algo_exercise",
   "collaborators": [
-    "Rafael Bachmann <rafael.bachmann.93@gmail.com>"
+    "Your Name <your.name@email.com>"
   ],
-  "description": "Got a Rust program that gets some input, transforms it, then gives something back? Turn it into a REPL-like website via WASM.",
   "version": "0.1.0",
   "license": "Apache-2.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/barafael/replify-wasm"
-  },
   "files": [
-    "replify_example_bg.wasm",
-    "replify_example.js",
-    "replify_example.d.ts"
+    "luhn_algo_exercise_bg.wasm",
+    "luhn_algo_exercise.js",
+    "luhn_algo_exercise.d.ts"
   ],
-  "module": "replify_example.js",
-  "types": "replify_example.d.ts",
-  "sideEffects": false
+  "module": "luhn_algo_exercise.js",
+  "types": "luhn_algo_exercise.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
 }
