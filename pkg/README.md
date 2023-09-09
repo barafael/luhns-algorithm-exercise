@@ -18,3 +18,7 @@ Mit dem Luhn Algorithmus kann man Kreditkartennummern validieren. Der Algorithmu
 * Endet das Ergebnis in einer Null, ist die Zahl gültig.
 
 Siehe Template in `src/lib.rs` für den Anfang.
+
+## WASM
+
+Zum generieren der WASM-Bibliothek: `wasm-pack build --target web --release`, dann z.B. `python -m http.server`.

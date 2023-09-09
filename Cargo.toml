@@ -5,7 +5,7 @@ version = "0.1.0"
 license = "Apache-2.0"
 edition = "2021"
 
-# For WASM binary generation
+# For WASM library generation
 [lib]
 crate-type = ["cdylib", "rlib"]
 
